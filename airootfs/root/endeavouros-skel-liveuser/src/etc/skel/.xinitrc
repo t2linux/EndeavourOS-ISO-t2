@@ -10,3 +10,4 @@ export QT_QPA_PLATFORM=xcb
 
 # Start Plasma session on X11
 exec startplasma-x11
+exec lookandfeeltool -a com.endeavouros.breezedarkeos.desktop
