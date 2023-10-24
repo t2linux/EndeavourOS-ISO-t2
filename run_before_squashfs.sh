@@ -116,6 +116,9 @@ pacman -Qs | grep "/xorg-server " | cut -c7- >> iso_package_versions
 pacman -Qs | grep "/nvidia-utils " | cut -c7- >> iso_package_versions
 mv "iso_package_versions" "/home/liveuser/"
 
+# Set theme
+lookandfeeltool -a com.endeavouros.breezedarkeos.desktop
+
 echo "############################"
 echo "# end chrooted commandlist #"
 echo "############################"
