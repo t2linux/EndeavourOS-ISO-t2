@@ -1,3 +1,7 @@
+# EndeavourOS-ISO-t2
+
+Forked EndeavourOS-ISO for Macs with T2 security chip
+
 # EndeavourOS-ISO
 
 [![Maintenance](https://img.shields.io/maintenance/yes/2025.svg)]()
