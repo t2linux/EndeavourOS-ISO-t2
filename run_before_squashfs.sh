@@ -116,6 +116,10 @@ pacman -Qs | grep "/xorg-server " | cut -c7- >> iso_package_versions
 pacman -Qs | grep "/nvidia-utils " | cut -c7- >> iso_package_versions
 mv "iso_package_versions" "/home/liveuser/"
 
+# use iwd as NetworkManager backend
+echo "[device]" >> /etc/NetworkManager/conf.d/wifi_backend.conf
+echo "wifi.backend=iwd" >> /etc/NetworkManager/conf.d/wifi_backend.conf
+
 echo "############################"
 echo "# end chrooted commandlist #"
 echo "############################"
