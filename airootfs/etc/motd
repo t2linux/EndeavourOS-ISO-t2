@@ -1,5 +1,9 @@
 This ISO is based on Arch-ISO modified hugely to provide Installation Environment for EndeavourOS.
+https://t2linux.org
 https://endeavouros.com
+
+EndeavourOS-archiso-t2 Sources: 
+https://github.com/endeavouros-team/EndeavourOS-ISO-t2
 
 EndeavourOS-archiso Sources: 
 https://github.com/endeavouros-team/EndeavourOS-ISO
@@ -12,15 +16,22 @@ https://github.com/calamares/calamares
 
 Live environment will start now and let you install EndeavourOS to disk, or tryout KDE-Desktop from Live-Session.
 
-Bugs with the installation can be reported here:
-https://forum.endeavouros.com/c/general-system/endeavouros-installation
+Although EndeavourOS team will respond and forward T2 specific issues, if you know that it's T2 specific issue, just report it directly to us.
 
-Getting help at the forum: https://forum.endeavouros.com
-Help-Chat is available on telegram: https://t.me/Endeavouros/
-News at twitter: https://twitter.com/OsEndeavour
+Bugs with the installation can be reported here:
+https://discord.gg/t2linux (t2linux)
+https://matrix.to/#/#space:t2linux.org (t2linux)
+https://forum.endeavouros.com/c/general-system/endeavouros-installation (upstream)
+
+Getting help at Discord: https://discord.gg/t2linux (t2linux)
+Getting help at Matrix: https://matrix.to/#/#space:t2linux.org (t2linux)
+Getting help at the forum: https://forum.endeavouros.com (upstream)
+Help-Chat is available on telegram: https://t.me/Endeavouros/ (upstream)
+News at twitter: https://twitter.com/OsEndeavour (upstream)
 
 Our journey wouldn't be made possible without the generosity of our open collective community:
-https://opencollective.com/endeavouros
+https://github.com/sponsors/NoaHimesaka1873
+https://opencollective.com/endeavouros (upstream)
 
 Thank you for donating your trust in us!
 
@@ -35,6 +46,6 @@ Please note the following about the Live environment:
 - The Live ISO is not intended for daily use.
 
 
-Welcome to your endeavour
+Welcome to you and your Mac's endeavour
 
 ------------------

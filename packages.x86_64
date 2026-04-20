@@ -2,6 +2,8 @@
 
 ## Base system
 iptables-nft
+arch-mact2-mirrorlist
+arch-mact2-rankmirrors
 base
 base-devel
 archlinux-keyring
@@ -14,10 +16,10 @@ dracut
 edk2-shell
 inetutils
 less
-linux
+linux-t2
 linux-firmware
 linux-firmware-marvell
-linux-headers
+linux-t2-headers
 logrotate
 lsb-release
 man-db
@@ -56,7 +58,6 @@ efitools
 # HARDWARE
 
 ## CPU
-amd-ucode
 intel-ucode
 
 ## X system
@@ -90,7 +91,7 @@ vulkan-radeon
 eos-hwtool
 
 ## Network hardware
-b43-fwcutter
+apple-bcm-firmware
 
 ## General hardware
 lsscsi
@@ -102,6 +103,7 @@ usbutils
 alsa-firmware
 alsa-plugins
 alsa-utils
+apple-t2-audio-config
 gst-libav
 gst-plugin-pipewire
 gst-plugins-bad
@@ -114,6 +116,10 @@ pipewire-pulse
 rtkit
 sof-firmware
 wireplumber
+
+## Apple-specific hardware
+t2fanrd
+tiny-dfr
 
 # SOFTWARE
 
@@ -251,6 +257,7 @@ plasma-pa
 plasma-x11-session
 plasma-systemmonitor
 plasma-workspace
+plasma-thunderbolt
 powerdevil
 print-manager
 sddm-kcm
@@ -291,6 +298,6 @@ welcome
 yay
 
 ## Calamares EndeavourOS
-calamares
+calamares-eos-t2
 ckbcomp
 
